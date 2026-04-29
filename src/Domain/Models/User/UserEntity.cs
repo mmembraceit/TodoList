@@ -1,4 +1,5 @@
 using Domain.Common;
+using Domain.ValueObjects;
 
 namespace Domain.Entities;
 
@@ -17,11 +18,4 @@ public sealed class UserEntity : BaseEntity
     public DateTimeOffset? LastSeenOnline { get; set; }
 
     public bool IsAdmin { get; set; }
-}
-
-public record PhoneNumber
-{
-    public string CountryCode { get; set; } = string.Empty;
-
-    public string Number { get; set; } = string.Empty;
 }
