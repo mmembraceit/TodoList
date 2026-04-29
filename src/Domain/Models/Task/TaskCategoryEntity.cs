@@ -1,6 +1,6 @@
 namespace Domain.Entities;
 
-public sealed class TaskCategory
+public sealed class TaskCategoryEntity
 {
     public Guid TaskItemId { get; set; }
 

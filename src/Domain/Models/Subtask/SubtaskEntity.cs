@@ -2,7 +2,7 @@ using Domain.Common;
 
 namespace Domain.Entities;
 
-public sealed class Subtask : BaseEntity
+public sealed class SubtaskEntity : BaseEntity
 {
     public Guid TaskItemId { get; set; }
 
