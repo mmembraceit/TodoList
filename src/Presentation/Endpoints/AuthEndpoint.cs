@@ -1,7 +1,7 @@
 using Application.Features.Auth;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Presentation.Contracts;
+using Presentation.Endpoints.Requests;
 
 namespace Presentation.Controllers;
 
