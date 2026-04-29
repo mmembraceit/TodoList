@@ -18,9 +18,9 @@ public sealed class TaskItemEntity : BaseEntity
 
     public TaskItemStatus Status { get; set; } = TaskItemStatus.NonStarted;
 
-    public List<Subtask> Subtasks { get; set; } = [];
+    public List<SubtaskEntity> Subtasks { get; set; } = [];
 
-    public List<TaskCategory> TaskCategories { get; set; } = [];
+    public List<TaskCategoryEntity> TaskCategories { get; set; } = [];
 
     public List<TaskTagEntity> TaskTags { get; set; } = [];
 }
